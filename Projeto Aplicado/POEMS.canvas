@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"e8ad0f53b88bf78b","x":-56,"y":-511,"width":328,"height":441,"color":"4","type":"text","text":"AMBIENTES - Quais características\n"},
+		{"id":"4bff901c4449414e","x":-712,"y":-511,"width":328,"height":441,"color":"6","type":"text","text":"PESSOAS - quem está envolvido\n\nUsuário\nDesenvolvedor\nMercado Financeiro\nCVM"},
+		{"id":"f68f6a092b7db104","x":-384,"y":-511,"width":328,"height":441,"color":"5","type":"text","text":"OBJETOS - que objetos fazem parte\n\nFundos de investimentos\nAplicaçõeos financeiras\nControles financeiros\nDados históricos\n"},
+		{"id":"3b5511883bc69803","x":272,"y":-511,"width":328,"height":441,"color":"2","type":"text","text":"MENSAGEM - O que será comunicado\n\nInformações disponíveis sobre os fundos\n"},
+		{"id":"d446c8fc2f51c4f1","x":600,"y":-511,"width":385,"height":441,"color":"1","type":"text","text":"SERVIÇOS - Quais serviços serão oferecidos\n\n"},
+		{"id":"119871e9be2bebc6","x":-749,"y":-534,"width":1777,"height":523,"type":"group","label":"POEMS"}
+	],
+	"edges":[]
+}

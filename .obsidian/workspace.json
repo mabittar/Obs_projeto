@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "ebf3fd0119cc2520",
+    "type": "split",
+    "children": [
+      {
+        "id": "f09c9c841dd5e50a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20b54bcbfa558602",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Projeto Aplicado/arch.jpg"
+              }
+            }
+          },
+          {
+            "id": "d59df523e4a3d31c",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "90a7e22a79350aa9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c44f5c42e624bb60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "339062345468a106",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3d18f4863ec22a04",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#architecure",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "88a593d59f90d966",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "122b97a28bb18f92",
+    "type": "split",
+    "children": [
+      {
+        "id": "54f04896adc967cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ae6015c02d32fec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8d5de4f6b9b5dcc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "69f5c31953b937a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "756fe002c51e209e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "b008a5c5757b2616",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "34d8bb7d2e969460",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "d59df523e4a3d31c",
+  "lastOpenFiles": [
+    "Projeto Aplicado/Cloud Architecture.md",
+    "Projeto Aplicado/CANVAS.canvas",
+    "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+    "Projeto Aplicado/Diagramas.md",
+    "Projeto Aplicado/arch.jpg",
+    "Projeto Aplicado/arch_flow.png",
+    "Projeto Aplicado/Diagrama da aplicação.md",
+    "Projeto Aplicado/Microservices.md",
+    "Projeto Aplicado/Mensageria.md",
+    "Projeto Aplicado/Matriz CSD.md"
+  ]
+}

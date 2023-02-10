@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "showFrontmatter": false,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "pt-BR",
+    "en-US"
+  ]
+}
