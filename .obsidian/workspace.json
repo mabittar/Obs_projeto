@@ -8,25 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20b54bcbfa558602",
+            "id": "e6fe793c4f624690",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Projeto Aplicado/arch.jpg"
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+                "mode": "source",
+                "source": false
               }
-            }
-          },
-          {
-            "id": "d59df523e4a3d31c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -55,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#architecure",
+                "query": "tag:#pub/sub",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md"
+              }
             }
           },
           {
@@ -148,11 +146,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,17 +164,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d59df523e4a3d31c",
+  "active": "e6fe793c4f624690",
   "lastOpenFiles": [
-    "Projeto Aplicado/Cloud Architecture.md",
-    "Projeto Aplicado/CANVAS.canvas",
+    "Projeto Aplicado/Matriz CSD.md",
     "Projeto Aplicado/Relatório do Projeto Aplicado.md",
-    "Projeto Aplicado/Diagramas.md",
-    "Projeto Aplicado/arch.jpg",
-    "Projeto Aplicado/arch_flow.png",
     "Projeto Aplicado/Diagrama da aplicação.md",
-    "Projeto Aplicado/Microservices.md",
-    "Projeto Aplicado/Mensageria.md",
-    "Projeto Aplicado/Matriz CSD.md"
+    "Projeto Aplicado/Backlog.md",
+    "Projeto Aplicado/CANVAS.canvas",
+    "Experimentação.md",
+    "Projeto Aplicado/POEMS.canvas",
+    "Projeto Aplicado/Pasted image 20230208190658.png",
+    "Projeto Aplicado/Cloud Architecture.md",
+    "Projeto Aplicado/Diagrama de Classes.md"
   ]
 }

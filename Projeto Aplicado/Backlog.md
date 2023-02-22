@@ -1,0 +1,22 @@
+- criar API REST como ponto de entrada para backend
+- criar endpoint para 
+- identificar qual fundo está sendo solicitado pelo usuário
+- identificar quais datas os usuário está solicitando os dados
+- verificar se os dados já estão no banco de dados
+- verificar quais meses serão lidos no site da CVM
+- criar fila  e tópico para mensageria
+- criar lógica para destacar quais mensagens foram processadas (acked) e quais estão pendentes (unacked)
+- para cada mês publicar a mensagem na fila
+- atualizar ou coletar novos dados do site da CVM
+- validar os dados recebidos
+- organizar os dados recebidos em TimeSeries
+- armazenar os dados classificados
+- desenvolver front de forma a plotar os gráficos de forma iterativa por fundo (ou mais de um fundo)
+- consumir outras métricas de mercado de forma a comparar o valor de evolução das cotas de fundo
+- habilitar endpoint para calcular retorno no período e outros índices financeiros
+- criar containers (Dockerfiles)
+- criar frontend para exposição dos dados (estático)
+- evoluir frontend para dinâmico
+- criar docker-compose 
+- notificar o usuário quando os dados estiverem disponíveis
+- Criar YAMLS para configuração de ambiente

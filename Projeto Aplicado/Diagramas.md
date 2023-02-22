@@ -16,6 +16,9 @@ from diagrams.oci.network import LoadBalancer as lb
 from diagrams.oci.compute import OKE
 from diagrams.gcp.analytics import PubSub
 from diagrams.onprem.network import Internet as Web
+from diagrams.onprem.ci import GithubActions
+from diagrams.k8s.clusterconfig import HPA
+from diagrams.k8s.podconfig import CM
 
 # filename="arch", outformat="jpg"
 with Diagram("CVM Reader", show=False, graph_attr=graph_attr, filename="arch", outformat="jpg") as diag:
@@ -27,6 +30,9 @@ with Diagram("CVM Reader", show=False, graph_attr=graph_attr, filename="arch", o
 		api = OKE("API")
 		msg = PubSub("Mensageria")
 		cvm = Web("Site CVM")
+		cm = CM("Config Map")
+		act = GithubActions("CI/CD")
+		hor_scaler = HPA("Horizontal Pod Scaler")
 
 		with Cluster("Fila"):
 			queue = [OKE("Assinante1"),

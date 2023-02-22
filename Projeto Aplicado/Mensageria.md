@@ -51,4 +51,4 @@ Os padrões de mensageria são implementados por pares de soquetes com tipos cor
 7. Processar o conteúdo
 
 
-#design_patterns #mensageria #pub/sub
+#design_patterns #mensageria #pubsub
