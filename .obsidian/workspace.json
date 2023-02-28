@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projeto Aplicado/Experimentação.md",
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projeto Aplicado/Experimentação.md",
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projeto Aplicado/Experimentação.md",
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projeto Aplicado/Experimentação.md"
+                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md"
               }
             }
           },
@@ -151,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,17 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "339062345468a106",
+  "active": "e6fe793c4f624690",
   "lastOpenFiles": [
+    "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
     "Projeto Aplicado/Relatório do Projeto Aplicado.md",
-    "Projeto Aplicado/Imagens/Pasted image 20230213093842.png",
-    "Projeto Aplicado/Matriz CSD.md",
+    "Projeto Aplicado/Cloud Architecture.md",
+    "Projeto Aplicado/Design de Sistemas.md",
     "Projeto Aplicado/Diagrama da aplicação.md",
-    "Projeto Aplicado/Backlog.md",
-    "Projeto Aplicado/CANVAS.canvas",
+    "Projeto Aplicado/Diagramas.md",
     "Projeto Aplicado/Experimentação.md",
     "Projeto Aplicado/POEMS.canvas",
-    "Projeto Aplicado/Pasted image 20230208190658.png",
-    "Projeto Aplicado/Cloud Architecture.md"
+    "Projeto Aplicado/Imagens/Pasted image 20230213093842.png",
+    "Projeto Aplicado/Matriz CSD.md",
+    "Projeto Aplicado/Backlog.md",
+    "Projeto Aplicado/CANVAS.canvas",
+    "Projeto Aplicado/Pasted image 20230208190658.png"
   ]
 }

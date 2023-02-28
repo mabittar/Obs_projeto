@@ -68,9 +68,9 @@ Neste ponto, para consultar o valor de uma cota, deverá acessar o link : *Dados
 
 Para cada mês que deseje a informação o usuário deve selecionar na caixa suspensa e navegar pela data que deseja, extraindo a informação que necessita.
 
-Caso o trabalho envolva monitorar 2 ou mais fundos o processo manual de obtenção de dados passa a crescer exponencialmente, portanto é necessário desenvolver uma aplicação que **colete e armazene esse dados de forma automatizada**, aprimorando o andamento do fluxo de trabalho. Com a automatização, será possível reduzir custos, tempo, desperdícios, aumentando a produtividade, minimizando falhas e controle.
+Caso o trabalho envolva monitorar 2 ou mais fundos o processo manual de obtenção de dados passa a crescer exponencialmente, portanto é necessário desenvolver uma **aplicação que colete e armazene esse dados de forma automatizada**, aprimorando o andamento do fluxo de trabalho. Com a automatização, será possível reduzir custos, tempo, desperdícios, aumentando a produtividade, minimizando falhas e controle.
 
-Para tanto é necessário observar que o desafio de extração de dados do mercado financeiro para consumo em uma aplicação envolve a coleta, processamento e armazenamento de dados de mercado em tempo real para serem utilizadas por vários usuários em uma plataforma em diversas aplicações e soluções.  E que alguns requisitos não funcionais são imprescindíveis, como: 
+Para tanto, é necessário observar que, o desafio de extração de dados do mercado financeiro para consumo em uma aplicação envolve a coleta, processamento e armazenamento de dados, em tempo real, para serem utilizadas por vários usuários, em uma plataforma, em diversas aplicações e soluções.  Diante do exposto, nos leva a definir alguns requisitos não funcionais, como: 
 
 1.  Alto desempenho: é necessário garantir que a aplicação possa lidar com uma grande quantidade de dados financeiros e fornecer informações atualizadas rapidamente para os usuários.
 2.  Segurança dos dados: é crucial proteger os dados financeiros contra acesso não autorizado e garantir a privacidade dos usuários.
@@ -102,7 +102,7 @@ Esta seção tem o objetivo de apresentar as pessoas envolvidas diretamente no p
 Boas práticas de arquitetura de software visam contribuir para o atendimento dos objetivos, respeitando restrições, atingindo atributos de qualidade.
 
 #### Dividir para Conquistar
-Como já explanado anteriormente, um dos pontos fundamentais da arquitetura da nossa solução será o alto desempenho, flexibilidade e escalabilidade.
+Como já explanado anteriormente, os requisitos não funcionais da nossa solução será o alto desempenho, flexibilidade e escalabilidade irão impactar diretamente a solução a ser adotada.
 
 Utilizando a estratégia "Divide and Conquer" é possível abordar o problema  e dividir sua complexidade em subproblemas menores de fácil entendimento e, assim, endereçar soluções de forma eficiente, definindo blocos de responsabilidades, tornando a software mais fácil de entender, aprender, fazer  futuras expansões e manutenções.
 
@@ -118,7 +118,7 @@ Dessas três etapas é possível se aprofundar:
 1. O usuário deseja consultar os dados histórico da cota dos fundos como valor, patrimônio líquido e número total de cotistas;
 2. A forma mais simples de acessar o fundo é pelo CNPJ (id único do fundo);
 3. Para consultar os dados histórico será necessário acessar o site da CVM sobre o respectivo fundo;
-4. Para acessar o site será necessário ler os objetos carregados na request (HTML) , na maior parte das vezes serão textos, outras vezes texto em formato de tabelas, mas será necessário também manipular scripts js da aplicação;
+4. Para acessar o site será necessário ler os objetos carregados na request (HTML) , na maior parte das vezes serão textos, outras vezes texto em formato de tabelas, mas será necessário também manipular scripts JS da aplicação;
 5. O site da CVM não trás todos os dados de uma vez, será necessário percorrer cada mês disponível, manipulando o js script da caixa de seleção (mm/aaaa);
 6. É necessário identificar quais meses estão disponível para consulta;
 7. Após a leitura dos dados será necessário armazená-los;
@@ -310,3 +310,35 @@ O Registro do Docker é uma aplicação que funciona em paralelo utilizado para 
  - Automação - com a ajuda de rotinas (cron) os desenvolvedores podem automatizar facilmente seu trabalho
  - Comunidade - Hoje existe mais de 9 milhões de imagens Docker. Diversas aplicações  podem ser encontradas e utilizadas de forma isolada, independente da plataforma.
 
+
+### Planejamento e Desenvolvimento
+
+![[RoadMap de Desenvolvimento.canvas]]
+
+#### Sprint 1
+
+Proof of Concept
+
+Desenvolver script para verificar a viabilidade de extração dos dados da CVM. Avaliar quais bibliotecas serão necessárias para manipular os dados e navegar entre as diferentes datas.
+
+
+Script para Extração dos Dados da CVM
+
+Com o PoC em estágio avançado é possível começar o desenvolvimento para transformar o PoC em um script, definindo os modelos de representação das TimeSeries em runtime e no Banco de Dados.
+
+#### Sprint 2
+
+Divisão em Microserviços
+
+Com o avanço do script será possível investigar o contrato da Requisição da chamada a ser feita na API, bem como esboçar as regras de Negócio.
+
+Ainda, a partir do script inicial, será possível definir quais dados deverão circular pelo ambiente de mensageria. E começar o desenvolvimento da fila para consumo das mensagens.
+
+Para persistência dos dados, testes de conexão e dos demais módulos  o Redis deverá estar funcionando no ambiente.
+
+Ao desenvolver o micro serviço responsável pela requisição será necessário elaborar os middlewares de conexão com banco de dados, health check e logger das requisições e respostas com timer para observabilidade da aplicação
+
+
+#### Sprint 3
+
+Nessa sprint o desenvolvimento focará  nas soluções de recebimento e validação das requisições através da API, validação das regras de negócio, consulta ao banco de dados, envio de mensagens ao serviço de PubSub e devolução das TS ao cliente no ambiente da API. Para o serviço de consumo das mensagens na fila, o foco será em persistir os dados e habilitar o serviço em multithreads para ganho de eficiência.
