@@ -90,7 +90,7 @@ Para tanto, é necessário observar que, o desafio de extração de dados do mer
 ![[POEMS.canvas]]
 #### Personas
 
-Esta seção tem o objetivo de apresentar as pessoas envolvidas diretamente no problema apresentado, definindo suas características pessoais, sociais, intelectuais e profissionais, com o máximo de detalhes possíveis
+![[Personas]]
 
 
 
@@ -328,7 +328,7 @@ Com o PoC em estágio avançado é possível começar o desenvolvimento para tra
 
 #### Sprint 2
 
-Divisão em Microserviços
+Divisão em Micro serviços
 
 Com o avanço do script será possível investigar o contrato da Requisição da chamada a ser feita na API, bem como esboçar as regras de Negócio.
 

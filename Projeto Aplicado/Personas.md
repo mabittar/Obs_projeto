@@ -1,0 +1,14 @@
+
+Esta seção tem o objetivo de apresentar as pessoas envolvidas diretamente no problema apresentado, definindo suas características pessoais, sociais, intelectuais e profissionais, com possíveis detalhes levantados.
+
+1.  **Investidor iniciante**: essa persona que começando agora no mercado financeiro e e busca uma maneira fácil de acompanhar seus investimentos, a fim de, entender melhor como funcionam os fundos de investimento. Suas motivações incluem a busca por informações claras e simples sobre seus investimentos e uma plataforma fácil de usar.
+    
+2.  **Investidor experiente**: essa persona já possui conhecimento sobre o mercado financeiro e esta buscando uma plataforma mais avançada para controlar seus investimentos, com funcionalidades como análises de desempenho de fundos e gráficos avançados. Suas motivações podem incluir a busca por informações mais detalhadas e precisas sobre seus investimentos e uma plataforma que ofereça ferramentas avançadas de análise.
+    
+3.  **Gestor de fundos**: essa persona é responsável por gerenciar os fundos de investimento e pode estar buscando uma plataforma que facilite o controle patrimonial dos fundos, permitindo uma visão clara do desempenho e dos investimentos. Suas motivações podem incluir a busca por uma ferramenta que permita uma gestão mais eficiente dos fundos e que ajude a identificar oportunidades de investimento.
+    
+4.  **Consultor financeiro**: essa persona é responsável por aconselhar os investidores em suas decisões financeiras e pode estar buscando uma plataforma que ofereça ferramentas de análise e que permita um acompanhamento mais eficiente dos investimentos de seus clientes. Suas motivações podem incluir a busca por uma ferramenta que facilite seu trabalho e que ajude a identificar oportunidades de investimento para seus clientes.
+    
+5.  **Pequeno investidor**: essa persona possui um patrimônio menor e pode estar buscando uma plataforma que permita investimentos em fundos com baixos valores de entrada e que ofereça uma visão clara do desempenho dos fundos. Suas motivações podem incluir a busca por uma plataforma que ofereça oportunidades de investimento acessíveis e que permita um acompanhamento fácil dos investimentos.
+    
+6.  **Investidor institucional**: essa persona representa empresas e instituições que investem em fundos e pode estar buscando uma plataforma que ofereça uma visão completa do desempenho de seus investimentos e que permita um acompanhamento eficiente do patrimônio investido. Suas motivações podem incluir a busca por uma ferramenta que facilite o controle patrimonial dos fundos e que permita uma gestão mais eficiente dos investimentos.

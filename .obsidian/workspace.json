@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e6fe793c4f624690",
+            "id": "22a829ba34814303",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,18 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6fe793c4f624690",
+  "active": "22a829ba34814303",
   "lastOpenFiles": [
-    "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
+    "Projeto Aplicado/POEMS.canvas",
     "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+    "Projeto Aplicado/Personas.md",
+    "Projeto Aplicado/Matriz CSD.md",
+    "Personas",
+    "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
     "Projeto Aplicado/Cloud Architecture.md",
     "Projeto Aplicado/Design de Sistemas.md",
     "Projeto Aplicado/Diagrama da aplicação.md",
     "Projeto Aplicado/Diagramas.md",
     "Projeto Aplicado/Experimentação.md",
-    "Projeto Aplicado/POEMS.canvas",
     "Projeto Aplicado/Imagens/Pasted image 20230213093842.png",
-    "Projeto Aplicado/Matriz CSD.md",
     "Projeto Aplicado/Backlog.md",
     "Projeto Aplicado/CANVAS.canvas",
     "Projeto Aplicado/Pasted image 20230208190658.png"
