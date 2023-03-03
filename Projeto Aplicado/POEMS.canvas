@@ -5,7 +5,7 @@
 		{"type":"text","text":"PESSOAS - quem está envolvido\n\nInvestidor Iniciante / Individual\nInvestidor Experiente\nGestor de Fundos\nConsultor Financeiro\nPequeno Investidor\nInvestidor Institucional","id":"4bff901c4449414e","x":-712,"y":-511,"width":328,"height":441,"color":"6"},
 		{"type":"text","text":"OBJETOS - que objetos fazem parte\n\nAcompanhar investimentos de forma eficiente\nComparar Valor das Cotas\nAnálise e Acompanhamento de Desempenho\nControle Patrimonial\nBusca por Oportunidades\n","id":"f68f6a092b7db104","x":-384,"y":-511,"width":328,"height":441,"color":"5"},
 		{"type":"text","text":"MENSAGEM - O que será comunicado\n\nOs usuários de forma geral buscam uma ferramenta que facilite o acesso a informação\n","id":"3b5511883bc69803","x":272,"y":-511,"width":328,"height":441,"color":"2"},
-		{"type":"text","text":"SERVIÇOS - Quais serviços serão oferecidos\n\nFacilitar o acesso ao valor patrimonial histórico de cada fundo\nPermitir as personas compararem os fundos","id":"d446c8fc2f51c4f1","x":600,"y":-511,"width":385,"height":441,"color":"1"}
+		{"type":"text","text":"SERVIÇOS - Quais serviços serão oferecidos\n\nFacilitar o acesso aos dados financeiros histórico de cada fundo\nPermitir as personas compararem os fundos","id":"d446c8fc2f51c4f1","x":600,"y":-511,"width":385,"height":441,"color":"1"}
 	],
 	"edges":[]
 }

@@ -8,14 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22a829ba34814303",
+            "id": "f5582b12464742c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
-                "mode": "source",
-                "source": false
+                "file": "Projeto Aplicado/POEMS.canvas",
+                "viewState": {
+                  "x": 139.5,
+                  "y": -272.5,
+                  "zoom": 0
+                }
               }
             }
           }
@@ -86,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+                "file": "Projeto Aplicado/POEMS.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+                "file": "Projeto Aplicado/POEMS.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projeto Aplicado/Relatório do Projeto Aplicado.md"
+                "file": "Projeto Aplicado/POEMS.canvas"
               }
             }
           },
@@ -151,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,14 +168,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22a829ba34814303",
+  "active": "f5582b12464742c3",
   "lastOpenFiles": [
+    "Projeto Aplicado/CANVAS.canvas",
+    "Projeto Aplicado/Personas.md",
+    "Projeto Aplicado/POEMS.canvas",
+    "Projeto Aplicado/Matriz CSD.md",
+    "Projeto Aplicado/Relatório do Projeto Aplicado.md",
     "Projeto Aplicado/Cloud Architecture.md",
     "Projeto Aplicado/Diagramas.md",
     "Projeto Aplicado/Experimentação.md",
-    "Projeto Aplicado/Matriz CSD.md",
-    "Projeto Aplicado/Relatório do Projeto Aplicado.md",
-    "Projeto Aplicado/POEMS.canvas",
     "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
     "Projeto Aplicado/Imagens/Pasted image 20230213112356.png",
     "Projeto Aplicado/Imagens/Pasted image 20230213093842.png",
@@ -186,10 +192,8 @@
     "Projeto Aplicado/Imagens/Pasted image 20230213094314.png",
     "Projeto Aplicado/Backlog.md",
     "Projeto Aplicado/Design de Sistemas.md",
-    "Projeto Aplicado/CANVAS.canvas",
     "Projeto Aplicado/Diagrama da aplicação.md",
     "Projeto Aplicado/Design de Sistemas 1.md",
-    "Projeto Aplicado/Personas.md",
     "Personas"
   ]
 }
