@@ -151,8 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,20 +166,30 @@
   },
   "active": "22a829ba34814303",
   "lastOpenFiles": [
-    "Projeto Aplicado/POEMS.canvas",
-    "Projeto Aplicado/Relatório do Projeto Aplicado.md",
-    "Projeto Aplicado/Personas.md",
-    "Projeto Aplicado/Matriz CSD.md",
-    "Personas",
-    "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
     "Projeto Aplicado/Cloud Architecture.md",
-    "Projeto Aplicado/Design de Sistemas.md",
-    "Projeto Aplicado/Diagrama da aplicação.md",
     "Projeto Aplicado/Diagramas.md",
     "Projeto Aplicado/Experimentação.md",
+    "Projeto Aplicado/Matriz CSD.md",
+    "Projeto Aplicado/Relatório do Projeto Aplicado.md",
+    "Projeto Aplicado/POEMS.canvas",
+    "Projeto Aplicado/RoadMap de Desenvolvimento.canvas",
+    "Projeto Aplicado/Imagens/Pasted image 20230213112356.png",
     "Projeto Aplicado/Imagens/Pasted image 20230213093842.png",
+    "Projeto Aplicado/Imagens/GitFlow.png",
+    "Projeto Aplicado/Imagens/DockerArch.png",
+    "Projeto Aplicado/Imagens/Pasted image 20230213163640.png",
+    "Projeto Aplicado/Imagens/EndPoint_GET.png",
+    "Projeto Aplicado/Imagens/Pasted image 20230213163556.png",
+    "Projeto Aplicado/Imagens/OpenAPI.Json.png",
+    "Projeto Aplicado/Imagens/Pasted image 20230213112404.png",
+    "Projeto Aplicado/Imagens/Pasted image 20230213112237.png.md",
+    "Projeto Aplicado/Imagens/Pasted image 20230213094314.png",
     "Projeto Aplicado/Backlog.md",
+    "Projeto Aplicado/Design de Sistemas.md",
     "Projeto Aplicado/CANVAS.canvas",
-    "Projeto Aplicado/Pasted image 20230208190658.png"
+    "Projeto Aplicado/Diagrama da aplicação.md",
+    "Projeto Aplicado/Design de Sistemas 1.md",
+    "Projeto Aplicado/Personas.md",
+    "Personas"
   ]
 }

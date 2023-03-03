@@ -160,7 +160,7 @@ A solução proposta é um modelo arquitetural em micro serviços, divido em uma
 
 Endpoints: 
 
-![[Pasted image 20230214113002.png]]
+![[OpenAPI.Json.png]]
 
 
 POST /fund -> assíncrono e responsável por executar a carga dos dados.
@@ -197,7 +197,7 @@ resposta:
 	
 GET /funds/quotes/(document)
 
-![[Pasted image 20230214113528.png]]
+![[EndPoint_GET.png]]
 
 principais regras de negócio da API:
 
@@ -284,7 +284,39 @@ mais detalhes podem ser vistos em [link](https://www.turing.com/kb/fastapi-vs-fl
 #### Demais soluções embarcadas
 
 ##### Versionamento de Código e GIT
-...
+
+O controle de versão, também chamado de source control, é um sistema que rastreia as mudanças no código durante todo o ciclo de vida do desenvolvimento e mantém um registro de cada alteração. Estes sistemas também armazenarão detalhes tais como autoria e carimbo de data e hora junto com cada versão. Isto permite às equipes comparar diferenças ou determinar seções de código problemáticas, revendo o histórico de revisões.
+
+###### GIT
+[**Git**](https://www.4linux.com.br/curso/git) – é uma das, senão a mais utilizada ferramente de SCM (Source Control Management) presentes no mercado de TI e um ponto muito importante, é disponibilizado de forma 100% [**Open Source**](https://www.4linux.com.br/consultoria). O Git foi desenvolvido em 2005 por **Linus Torvalds** após a revogação da licença do BitKeeper, utilizado até então para manter o código fonte do Kernel [**Linux**](https://www.4linux.com.br/cursos/linux).
+
+Atualmente é a principal ferramenta de gerenciamento de código fonte, sendo a base para as metodologias de desenvolvimento ágil, como: XP, Agile, Scrum. Não somente nessas metodologias, mas entrando também no universo [**DevOps**](https://www.4linux.com.br/devops), onde vemos as soluções de SCM como a base para as esteiras de desenvolvimento como o [**Continuous Integration e Continuous Delivery**](https://www.4linux.com.br/curso/git-jenkins-nexus-sonar), conhecido como [**Pipeline CI/CD**](https://www.4linux.com.br/consultoria/integracao-e-entrega-continua-cicd).
+
+###### GITFlow
+
+**GitFlow** é uma forma de **gerenciamento de branch**, ela propõe uma forma de configurar as branchs para que se tenha uma separação em Master, Release, Desenvolvimento, Features e Hotfix, sendo:
+
+![[GitFlow.png]]
+
+**Master** – Branch principal, que conteria seu código de produção.
+
+**Release** – Branch para release, lançamento de versões de sua aplicação que posteriormente poderiam ser _mergiadas_ na branch master.
+
+**Desenvolvimento** – Branch para manter o código em atual desenvolvimento.
+
+**Features** – Branchs que são copias de desenvolvimento onde justamente acontece a criação de uma nova funcionalidade do software.
+
+**Hotfix** – Branch criada quando realiza-se alguma atualização de segurança que normalmente precisa entrar diretamente em produção.
+
+###### GitHub do projeto
+
+O repositório remoto pode ser acessado em: https://github.com/mabittar/funds_pricer
+
+
+Histórico do projeto até  a data atual
+
+![[GitLog.png]]
+
 
 ##### Docker
 
@@ -296,7 +328,7 @@ Como o Docker é um pacote de software com todas as dependências necessárias a
 
 A figura a seguir ilustra os vários componentes da plataforma e como eles se interconectam.
 
-![[Pasted image 20230222110109.png]]
+![[DockerArch.png]]
 
 
 O cliente Docker, é o principal componente utilizado para criar, gerenciar e executar aplicativos em containers. Sendo o principal método de controle.
